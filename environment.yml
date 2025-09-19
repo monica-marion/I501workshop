@@ -1,0 +1,13 @@
+name: 501_workshop_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - folium # Example of including pip packages in a Conda env
