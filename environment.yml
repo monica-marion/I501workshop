@@ -8,6 +8,8 @@ dependencies:
   - pandas
   - matplotlib
   - jupyter
+  - time
   - pip
   - pip:
-    - folium # Example of including pip packages in a Conda env
+    - folium
+    - networkx
