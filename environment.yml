@@ -13,3 +13,5 @@ dependencies:
   - pip:
     - folium
     - networkx
+    - random
+    - itertools
